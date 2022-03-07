@@ -1,0 +1,31 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Pizza Sandwich",
+      "directions": [
+        "Set oven to 425",
+        "Once preheated, add frozen pizza to the oven",
+        "Remove pizza from oven after fully cooked (15 minutes)",
+        "Cut pizza in half and place any desired ingredients in between the two halves, serve hot"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "author": "Ursula",
+          "content": "This is the most disgusting thing I've ever heard of"
+        },
+        {
+          "id": 2,
+          "author": "Octavia",
+          "content": "Bravo!"
+        },
+        {
+          "id": 3,
+          "author": "Sundae",
+          "content": "I just tried this and it changed me life! Better than bagel bites tbh"
+        }
+      ]
+    }
+  ]
+}
