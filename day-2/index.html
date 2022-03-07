@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script defer src="index.js" charset="utf-8"></script>
+    <title>Pizza Sandwich</title>
+  </head>
+  <body>
+
+    <div class="instructions" style="border: solid black 3px; padding: 1em; margin-bottom: 1em;">
+
+      <h3>Instructions</h3>
+
+      <p>To get started, begin your json server with <code>json-server --watch db.json</code> and open this HTML file.</p>
+
+      <p>Today you'll be changing a few key areas of the HTML after your fetch request.</p>
+
+      <p>In the recipe card down below, take the first recipe fetched from the <code>db.json</code> and display its image in the image provided.</p>
+
+      <p>Put the name of the recipe in the provided <code>h1</code>.</p>
+
+      <p>Each step of the directions goes in an <code>li</code> in the <code>ol</code> provided.</p>
+
+      <p>And finally each comment gets its own p tag down below which should include both the comment's author and content (how you format this is up to you...)</p>
+
+    </div>
+
+
+    <img id="cover-image" src="none" alt="you image here" style="max-width: 40vw; float: right; border: solid black 4px;">
+
+    <h1 id="recipe-name">Recipe Title Here</h1>
+
+    <ol id="directions-list">
+      <!-- your directions go here -->
+    </ol>
+
+    <div class="comments">
+      <!-- your comments go here -->
+    </div>
+
+  </body>
+</html>
